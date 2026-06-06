@@ -1,0 +1,120 @@
+{
+  "pilares": [
+    {
+      "titulo": "Pilar 1: Compromiso Ciudadano y Social",
+      "items": [
+        {
+          "titulo": "Enfoque ético:",
+          "texto": "Formación con responsabilidad social"
+        },
+        {
+          "titulo": "Práctica transformadora:",
+          "texto": "Impacto en la comunidad"
+        },
+        {
+          "titulo": "Análisis crítico:",
+          "texto": "Pensamiento reflexivo y fundamentado"
+        }
+      ]
+    },
+    {
+      "titulo": "Pilar 2: Herramientas Pedagógicas Modernas",
+      "items": [
+        {
+          "titulo": "Comprensión del sujeto:",
+          "texto": "Psicología del aprendizaje"
+        },
+        {
+          "titulo": "Innovación y TIC:",
+          "texto": "Tecnología educativa aplicada"
+        },
+        {
+          "titulo": "Contexto real:",
+          "texto": "Problemas económicos actuales"
+        }
+      ]
+    },
+    {
+      "titulo": "Pilar 3: Trabajo Institucional Colectivo",
+      "items": [
+        {
+          "titulo": "Equipo:",
+          "texto": "Colaboración interdisciplinaria"
+        },
+        {
+          "titulo": "Proyectos:",
+          "texto": "Gestión educativa participativa"
+        },
+        {
+          "titulo": "Redes:",
+          "texto": "Articulación institucional"
+        }
+      ]
+    }
+  ],
+  "competencias": {
+    "gestion": [
+      {
+        "titulo": "Atención a la diversidad",
+        "texto": "Estrategias inclusivas para todos los estudiantes"
+      },
+      {
+        "titulo": "Acompañamiento",
+        "texto": "Tutoría y seguimiento personalizado"
+      },
+      {
+        "titulo": "Dinámica grupal",
+        "texto": "Liderazgo de equipos de trabajo"
+      },
+      {
+        "titulo": "Comunidad",
+        "texto": "Vínculo escuela-familia-sociedad"
+      }
+    ],
+    "planificacion": [
+      {
+        "titulo": "Contenidos",
+        "texto": "Diseño y secuenciación didáctica"
+      },
+      {
+        "titulo": "Recursos",
+        "texto": "Materiales innovadores y TIC"
+      },
+      {
+        "titulo": "Cultura",
+        "texto": "Contextualización sociocultural"
+      },
+      {
+        "titulo": "Evaluación",
+        "texto": "Instrumentos formativos y sumativos"
+      }
+    ]
+  },
+  "capacidadesClave": [
+    {
+      "titulo": "Análisis Integral",
+      "texto": "Visión sistémica de fenómenos económicos",
+      "icono": "fa-magnifying-glass-chart"
+    },
+    {
+      "titulo": "Diseño Socioeconómico",
+      "texto": "Proyectos con impacto comunitario",
+      "icono": "fa-diagram-project"
+    },
+    {
+      "titulo": "Evaluación Precisa",
+      "texto": "Medición efectiva de aprendizajes",
+      "icono": "fa-clipboard-check"
+    },
+    {
+      "titulo": "Tecnología con Impacto",
+      "texto": "Herramientas digitales educativas",
+      "icono": "fa-microchip"
+    },
+    {
+      "titulo": "Optimización",
+      "texto": "Mejora continua del proceso educativo",
+      "icono": "fa-rocket"
+    }
+  ]
+}
