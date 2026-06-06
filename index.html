@@ -762,5 +762,19 @@
         });
     </script>
 <script>(function(){document.addEventListener("click",function(e){var a=e.target.closest("[data-product-id]");if(!a)return;e.preventDefault();var pid=a.getAttribute("data-product-id");if(pid)parent.postMessage({type:"ecto-artifact-link-click",productId:pid},"*")})})();</script>
+<button
+  onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })"
+  class="fixed bottom-6 right-6 bg-blue-600 hover:bg-blue-700 text-white p-3 rounded-full shadow-lg transition duration-300"
+>
+  <svg xmlns="http://www.w3.org/2000/svg"
+       fill="none"
+       viewBox="0 0 24 24"
+       stroke-width="2"
+       stroke="currentColor"
+       class="w-6 h-6">
+    <path stroke-linecap="round" stroke-linejoin="round"
+          d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+  </svg>
+</button>
 </body>
 </html>
