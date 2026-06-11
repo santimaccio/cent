@@ -1,10 +1,24 @@
 Recursos:
+Diseño Curricalr Jurisdiccional del profesorado en economias
+Visual Studio con Copilot
 https://gemini.google.com/app/6e34bb1a91aa235a?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all
 https://www.meta.ai/prompt/f799aade-ad75-49f5-b8bc-9b0bfb2e9bc6
 https://claude.ai/chat/69c1a0ec-5ee0-4358-840f-955cd3b62496
 https://chatgpt.com/c/6a244156-669c-83e9-a34f-1710a56dc6c9
-https://tailwindcss.com/
 https://fontawesome.com/v4/icons/
 https://onecompiler.com/html/44rgrh6ww
 https://github.com/santimaccio/cent
 https://app.netlify.com/projects/benevolent-mermaid-8ebe1a/deploys/6a26ee1012b4880a5744eba6
+
+Proceso:
+1. Se subió a Claude.ai el DCJ y se le hizo el Prompt: crea un docx con las finalidades formativas y los perfiles del egresado. Claude devolvió el archivo: Prof_Economia_Finalidades_y_Perfiles.docx
+2. El archivo Prof_Economia_Finalidades_y_Perfiles.docx se subió a Gemini y se le hizo el Prompt: elabora una estructura para una infografia de producto con el documento adjunto y guarda la estructura propuesta en un doc. Gemini devolvió el archivo: Estructura de Infografia - Profesorado de Economia.doc
+3. Se subió a Meta.ai el archivo de estructura y, pensando en la escalabilidad, se le hizo el Prompt: Con la estructura propuesta en el archivo Estructura de Infografia crea una infografia promocional del profesorado en formato SVG. Meta devolvió el archivo: infografia_profesorado_economia_web_artifact_2_a8e5ef79b219.html
+4. De la devolución del SVG en código HTML surgió la idea de hacerlo como página Web, más escalable y facilmente editable, por lo que se pidó a Meta.ai el siguiente Prompt: transforma el SVG en HTML y devolvio el archivo: Creando-infografía-de-profesorado.html
+5. Para mejorar la posibilidad de edición se subió el archivo Creando-infografía-de-profesorado.html a Claude.ai y se le pidio el Prompt: para este html crea un json en el que pueda editar el texto de las secciones. Claude devolvió el archivo content.json y una nueva version de Creando-infografía-de-profesorado.html
+6. A Chatgpt se le pidio el codigo del boton de desplazamiento al final (flecha en un circulo en el margen inferior derecho)
+7. Todo el código se compiló y se realizaron algunas modificaciones pequeñas en Visual Studio con asistencia de Copilot, cómo la separación de algunas partes que las otras IA no hicieron en un nuevo data.json; el cambio de logos y la incorporación del QR y enlaces a Facebook y Youtube.
+8. Se subieron los códigos a Onecompiler y se realizó el deploy (lanzamiento), obteniendo el permalink: https://cent.oneapp.dev/
+9. Como reaseguro, se realizo deploy en Netlify tambien, aunque no se actualizó a la últmia verisón.
+10. Todos los archivos, códigos producidos y esta documentación se subieron a Github.
+
