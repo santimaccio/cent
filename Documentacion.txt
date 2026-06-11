@@ -17,8 +17,10 @@ Proceso:
 4. De la devolución del SVG en código HTML surgió la idea de hacerlo como página Web, más escalable y facilmente editable, por lo que se pidó a Meta.ai el siguiente Prompt: transforma el SVG en HTML y devolvio el archivo: Creando-infografía-de-profesorado.html
 5. Para mejorar la posibilidad de edición se subió el archivo Creando-infografía-de-profesorado.html a Claude.ai y se le pidio el Prompt: para este html crea un json en el que pueda editar el texto de las secciones. Claude devolvió el archivo content.json y una nueva version de Creando-infografía-de-profesorado.html
 6. A Chatgpt se le pidio el codigo del boton de desplazamiento al final (flecha en un circulo en el margen inferior derecho)
-7. Todo el código se compiló y se realizaron algunas modificaciones pequeñas en Visual Studio con asistencia de Copilot, cómo la separación de algunas partes que las otras IA no hicieron en un nuevo data.json; el cambio de logos y la incorporación del QR y enlaces a Facebook y Youtube.
-8. Se subieron los códigos a Onecompiler y se realizó el deploy (lanzamiento), obteniendo el permalink: https://cent.oneapp.dev/
-9. Como reaseguro, se realizo deploy en Netlify tambien, aunque no se actualizó a la últmia verisón.
-10. Todos los archivos, códigos producidos y esta documentación se subieron a Github.
+7. Se creó el qr para acceder al Fcaebook del CENT desde https://www.codigos-qr.com/en/qr-code-generator/
+8. Se subieron las imagenes del logo del CENT obtenido desde Facebook y el QR a Github, que sirve de repositorio
+9. Todo el código se compiló y se realizaron algunas modificaciones pequeñas en Visual Studio con asistencia de Copilot, cómo la separación de algunas partes que las otras IA no hicieron en un nuevo data.json; el cambio de logos y la incorporación del QR y enlaces a Facebook y Youtube.
+10. Se subieron los códigos a Onecompiler y se realizó el deploy (lanzamiento), obteniendo el permalink: https://cent.oneapp.dev/
+11. Como reaseguro, se realizo deploy en Netlify tambien, aunque no se actualizó a la últmia verisón.
+12. Todos los archivos, códigos producidos y esta documentación se subieron a Github cómo respaldo y repositorio de Netlify.
 
